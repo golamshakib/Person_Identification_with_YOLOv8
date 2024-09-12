@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/YOLOv8 RESEARCH/Person_v20/data/train/images
+val: /content/drive/MyDrive/YOLOv8 RESEARCH/Person_v20/data/valid/images
+test: /content/drive/MyDrive/YOLOv8 RESEARCH/Person_v20/data/test/images
+
+nc: 4
+names: ['Hasan', 'Mahira', 'Shakib', 'Torik']
+
+roboflow:
+  workspace: face-not-detected
+  project: person-identification-test-data
+  version: 12
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/face-not-detected/person-identification-test-data/dataset/12
